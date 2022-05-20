@@ -17,6 +17,8 @@
 		EA555FE928381CB100DC42A3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA555FBF28381CA900DC42A3 /* ContentView.swift */; };
 		EA555FEA28381CB100DC42A3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA555FC028381CB100DC42A3 /* Assets.xcassets */; };
 		EA555FEB28381CB100DC42A3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA555FC028381CB100DC42A3 /* Assets.xcassets */; };
+		EA5560442838292C00DC42A3 /* NotesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA5560432838292C00DC42A3 /* NotesViewModel.swift */; };
+		EA55604928382A9100DC42A3 /* NoteModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA55604828382A9100DC42A3 /* NoteModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		EA555FDE28381CB100DC42A3 /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA555FE228381CB100DC42A3 /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
 		EA555FE428381CB100DC42A3 /* Tests_macOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOSLaunchTests.swift; sourceTree = "<group>"; };
+		EA5560432838292C00DC42A3 /* NotesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotesViewModel.swift; sourceTree = "<group>"; };
+		EA55604828382A9100DC42A3 /* NoteModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +103,8 @@
 			children = (
 				EA555FBE28381CA900DC42A3 /* CodeGaragePruebaApp.swift */,
 				EA555FBF28381CA900DC42A3 /* ContentView.swift */,
+				EA55604728382A8400DC42A3 /* Model */,
+				EA5560422838291700DC42A3 /* ViewModel */,
 				EA555FC028381CB100DC42A3 /* Assets.xcassets */,
 			);
 			path = Shared;
@@ -139,6 +145,22 @@
 				EA555FE428381CB100DC42A3 /* Tests_macOSLaunchTests.swift */,
 			);
 			path = "Tests macOS";
+			sourceTree = "<group>";
+		};
+		EA5560422838291700DC42A3 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				EA5560432838292C00DC42A3 /* NotesViewModel.swift */,
+			);
+			name = ViewModel;
+			sourceTree = "<group>";
+		};
+		EA55604728382A8400DC42A3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				EA55604828382A9100DC42A3 /* NoteModel.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -300,7 +322,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				EA555FE828381CB100DC42A3 /* ContentView.swift in Sources */,
+				EA55604928382A9100DC42A3 /* NoteModel.swift in Sources */,
 				EA555FE628381CB100DC42A3 /* CodeGaragePruebaApp.swift in Sources */,
+				EA5560442838292C00DC42A3 /* NotesViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
